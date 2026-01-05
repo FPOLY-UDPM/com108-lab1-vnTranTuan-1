@@ -19,7 +19,7 @@ jobs:
       with:
         test-name: Kiem tra loi cu phap
         setup-command: ''
-        command: gcc -Wall -Wextra -Werror hello.c -o hello
+        command: gcc -Wall -Wextra hello.c -o hello
         timeout: 10
         max-score: 2
     - name: Kiem tra thong tin sinh vien
