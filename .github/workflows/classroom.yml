@@ -28,7 +28,7 @@ jobs:
       with:
         test-name: Kiem tra thong tin sinh vien
         setup-command: ''
-        command: grep -i "MSSV" hello.c && grep -i "Ho va ten" hello.c
+        command: grep -i "MSSV" hello.c && grep -i "Họ và tên" hello.c
         timeout: 10
         max-score: 2
     - name: Autograding Reporter
